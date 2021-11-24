@@ -1,0 +1,425 @@
+2021-11-22 16:28:47,113 - DEBUG - Program Started
+2021-11-22 16:28:55,687 - DEBUG - Loading Data into Dataframe
+2021-11-22 16:33:46,825 - DEBUG - Loading Data into Dataframe
+2021-11-22 16:33:46,938 - DEBUG - Data Size(19735, 29)
+2021-11-22 16:33:57,658 - DEBUG - Tranforming date time
+2021-11-22 16:34:03,498 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 16:34:09,468 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 16:34:09,468 - DEBUG - True
+2021-11-22 16:34:21,000 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 16:34:21,062 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 16:34:21,062 - DEBUG - Creating function to remove outliers
+2021-11-22 16:34:21,062 - DEBUG - Removing Outliers
+2021-11-22 16:34:33,295 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 16:34:33,295 - DEBUG - 26.982518368381047
+2021-11-22 16:34:39,608 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 16:34:39,608 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 16:34:39,627 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 16:34:46,061 - DEBUG - Renaming the column of dummy variables
+2021-11-22 16:34:56,139 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 16:35:04,835 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 16:35:04,838 - DEBUG - Splitting for Feature Selection
+2021-11-22 16:35:04,845 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 16:35:04,845 - DEBUG - Fitting the random forest
+2021-11-22 16:35:54,203 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 16:35:54,265 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 16:35:54,484 - DEBUG - Printing Metrices
+2021-11-22 17:09:28,112 - DEBUG - Loading Data into Dataframe
+2021-11-22 17:09:28,227 - DEBUG - Data Size(19735, 29)
+2021-11-22 17:26:31,512 - DEBUG - Program Started
+2021-11-22 17:26:41,632 - DEBUG - Loading Data into Dataframe
+2021-11-22 17:27:17,737 - DEBUG - Loading Data into Dataframe
+2021-11-22 17:27:17,848 - DEBUG - Data Size(19735, 29)
+2021-11-22 17:27:31,550 - DEBUG - Tranforming date time
+2021-11-22 17:27:44,048 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 17:27:44,058 - INFO - NumExpr defaulting to 4 threads.
+2021-11-22 17:28:03,752 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 17:28:03,752 - DEBUG - True
+2021-11-22 17:28:15,993 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 17:28:16,054 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 17:28:16,054 - DEBUG - Creating function to remove outliers
+2021-11-22 17:28:16,054 - DEBUG - Removing Outliers
+2021-11-22 17:28:41,991 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 17:28:41,991 - DEBUG - 26.982518368381047
+2021-11-22 17:29:05,055 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 17:29:05,058 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 17:29:05,058 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 17:29:20,830 - DEBUG - Renaming the column of dummy variables
+2021-11-22 17:29:30,896 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 17:29:58,432 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 17:29:58,432 - DEBUG - Splitting for Feature Selection
+2021-11-22 17:29:58,446 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 17:29:58,446 - DEBUG - Fitting the random forest
+2021-11-22 17:30:51,259 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 17:30:51,321 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 17:30:51,571 - DEBUG - Printing Metrices
+2021-11-22 18:03:51,961 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py
+2021-11-22 18:03:52,040 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2021-11-22 18:03:52,046 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\__init__.py
+2021-11-22 18:03:52,047 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\__init__.py
+2021-11-22 18:03:52,117 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py
+2021-11-22 18:03:52,148 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\base.py
+2021-11-22 18:03:52,164 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\accessor.py
+2021-11-22 18:03:52,195 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py
+2021-11-22 18:03:52,258 - DEBUG - diff parser start
+2021-11-22 18:03:52,258 - DEBUG - line_lengths old: 1; new: 1
+2021-11-22 18:03:52,258 - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-11-22 18:03:52,258 - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-11-22 18:03:52,258 - DEBUG - diff parser end
+2021-11-22 18:07:48,552 - DEBUG - Program Started
+2021-11-22 18:07:49,279 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:07:57,838 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:07:57,869 - DEBUG - Data Size(4932, 32)
+2021-11-22 18:08:00,574 - DEBUG - Tranforming date time
+2021-11-22 18:08:01,245 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 18:08:01,896 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 18:08:01,897 - DEBUG - True
+2021-11-22 18:08:02,377 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 18:08:02,433 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 18:08:02,435 - DEBUG - Creating function to remove outliers
+2021-11-22 18:08:02,435 - DEBUG - Removing Outliers
+2021-11-22 18:08:03,078 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 18:08:03,078 - DEBUG - 26.824817518248175
+2021-11-22 18:08:36,968 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:08:37,078 - DEBUG - Data Size(19735, 29)
+2021-11-22 18:08:39,363 - DEBUG - Tranforming date time
+2021-11-22 18:08:40,113 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 18:08:40,572 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 18:08:40,572 - DEBUG - True
+2021-11-22 18:08:41,199 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 18:08:41,260 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 18:08:41,260 - DEBUG - Creating function to remove outliers
+2021-11-22 18:08:41,260 - DEBUG - Removing Outliers
+2021-11-22 18:08:41,763 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 18:08:41,763 - DEBUG - 26.982518368381047
+2021-11-22 18:08:42,359 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 18:08:42,362 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 18:08:42,368 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 18:08:42,839 - DEBUG - Renaming the column of dummy variables
+2021-11-22 18:08:43,446 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 18:08:44,002 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 18:08:44,005 - DEBUG - Splitting for Feature Selection
+2021-11-22 18:08:44,010 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 18:08:44,010 - DEBUG - Fitting the random forest
+2021-11-22 18:09:35,635 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 18:09:35,713 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 18:09:35,948 - DEBUG - Printing Metrices
+2021-11-22 18:13:56,548 - DEBUG - Program Started
+2021-11-22 18:13:56,562 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:13:56,653 - DEBUG - Data Size(19735, 29)
+2021-11-22 18:13:56,669 - DEBUG - Tranforming date time
+2021-11-22 18:13:56,700 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 18:13:56,731 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 18:13:56,731 - DEBUG - True
+2021-11-22 18:13:56,747 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 18:13:56,809 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 18:13:56,809 - DEBUG - Creating function to remove outliers
+2021-11-22 18:13:56,809 - DEBUG - Removing Outliers
+2021-11-22 18:13:56,950 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 18:13:56,950 - DEBUG - 26.982518368381047
+2021-11-22 18:13:56,965 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 18:13:56,965 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 18:13:56,965 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 18:13:56,997 - DEBUG - Renaming the column of dummy variables
+2021-11-22 18:13:57,012 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 18:13:57,028 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 18:13:57,043 - DEBUG - Splitting for Feature Selection
+2021-11-22 18:13:57,043 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 18:13:57,043 - DEBUG - Fitting the random forest
+2021-11-22 18:14:48,278 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 18:14:48,363 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 18:14:48,590 - DEBUG - Printing Metrices
+2021-11-22 18:14:58,674 - DEBUG - Program Started
+2021-11-22 18:16:34,411 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:16:34,415 - DEBUG - Data Size(22, 29)
+2021-11-22 18:17:03,639 - DEBUG - diff parser start
+2021-11-22 18:17:03,639 - DEBUG - line_lengths old: 1; new: 1
+2021-11-22 18:17:03,639 - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-11-22 18:17:03,639 - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-11-22 18:17:03,639 - DEBUG - diff parser end
+2021-11-22 18:19:31,391 - DEBUG - Tranforming date time
+2021-11-22 18:21:51,001 - DEBUG - Program Started
+2021-11-22 18:21:51,952 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:21:51,957 - DEBUG - Data Size(22, 29)
+2021-11-22 18:21:54,128 - DEBUG - Tranforming date time
+2021-11-22 18:22:16,990 - DEBUG - Program Started
+2021-11-22 18:22:17,002 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:22:17,111 - DEBUG - Data Size(19735, 29)
+2021-11-22 18:22:17,208 - DEBUG - Tranforming date time
+2021-11-22 18:22:17,238 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 18:22:17,238 - INFO - NumExpr defaulting to 4 threads.
+2021-11-22 18:22:17,287 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 18:22:17,287 - DEBUG - True
+2021-11-22 18:22:17,300 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 18:22:17,347 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 18:22:17,363 - DEBUG - Creating function to remove outliers
+2021-11-22 18:22:17,363 - DEBUG - Removing Outliers
+2021-11-22 18:22:17,505 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 18:22:17,505 - DEBUG - 26.982518368381047
+2021-11-22 18:22:17,518 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 18:22:17,518 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 18:22:17,518 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 18:22:17,533 - DEBUG - Renaming the column of dummy variables
+2021-11-22 18:22:17,552 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 18:22:17,573 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 18:22:17,581 - DEBUG - Splitting for Feature Selection
+2021-11-22 18:22:17,581 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 18:22:17,581 - DEBUG - Fitting the random forest
+2021-11-22 18:23:07,628 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 18:23:07,690 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 18:23:07,940 - DEBUG - Printing Metrices
+2021-11-22 18:29:22,422 - DEBUG - Program Started
+2021-11-22 18:29:23,280 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:29:23,284 - DEBUG - Data Size(22, 29)
+2021-11-22 18:29:32,140 - DEBUG - Tranforming date time
+2021-11-22 18:30:19,413 - DEBUG - Program Started
+2021-11-22 18:30:19,424 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:30:19,535 - DEBUG - Data Size(19735, 29)
+2021-11-22 18:30:19,600 - DEBUG - Tranforming date time
+2021-11-22 18:30:19,622 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 18:30:19,631 - INFO - NumExpr defaulting to 4 threads.
+2021-11-22 18:30:19,663 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 18:30:19,663 - DEBUG - True
+2021-11-22 18:30:19,681 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 18:30:19,739 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 18:30:19,741 - DEBUG - Creating function to remove outliers
+2021-11-22 18:30:19,741 - DEBUG - Removing Outliers
+2021-11-22 18:30:19,862 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 18:30:19,862 - DEBUG - 26.982518368381047
+2021-11-22 18:30:19,877 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 18:30:19,877 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 18:30:19,877 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 18:30:19,896 - DEBUG - Renaming the column of dummy variables
+2021-11-22 18:30:19,911 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 18:30:19,925 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 18:30:19,943 - DEBUG - Splitting for Feature Selection
+2021-11-22 18:30:19,948 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 18:30:19,948 - DEBUG - Fitting the random forest
+2021-11-22 18:31:09,800 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 18:31:09,863 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 18:31:10,097 - DEBUG - Printing Metrices
+2021-11-22 18:31:17,727 - DEBUG - Program Started
+2021-11-22 18:31:18,299 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:31:18,303 - DEBUG - Data Size(22, 29)
+2021-11-22 18:33:16,501 - DEBUG - Tranforming date time
+2021-11-22 18:35:28,528 - DEBUG - Tranforming date time
+2021-11-22 18:37:16,773 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:37:16,777 - DEBUG - Data Size(13, 29)
+2021-11-22 18:37:28,834 - DEBUG - Program Started
+2021-11-22 18:37:28,846 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:37:28,846 - DEBUG - Data Size(13, 29)
+2021-11-22 18:37:28,893 - DEBUG - Tranforming date time
+2021-11-22 18:37:40,611 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:37:46,950 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:37:46,955 - DEBUG - Data Size(13, 29)
+2021-11-22 18:37:49,526 - DEBUG - Tranforming date time
+2021-11-22 18:40:02,913 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:40:20,789 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:40:47,367 - DEBUG - Tranforming date time
+2021-11-22 18:41:28,744 - DEBUG - Program Started
+2021-11-22 18:41:28,763 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:41:28,872 - DEBUG - Data Size(19735, 29)
+2021-11-22 18:41:28,917 - DEBUG - Tranforming date time
+2021-11-22 18:41:28,965 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 18:41:28,965 - INFO - NumExpr defaulting to 4 threads.
+2021-11-22 18:41:28,997 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 18:41:28,998 - DEBUG - True
+2021-11-22 18:41:29,015 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 18:41:29,073 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 18:41:29,073 - DEBUG - Creating function to remove outliers
+2021-11-22 18:41:29,073 - DEBUG - Removing Outliers
+2021-11-22 18:41:29,232 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 18:41:29,232 - DEBUG - 26.982518368381047
+2021-11-22 18:41:29,244 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 18:41:29,244 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 18:41:29,244 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 18:41:29,259 - DEBUG - Renaming the column of dummy variables
+2021-11-22 18:41:29,278 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 18:41:29,298 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 18:41:29,307 - DEBUG - Splitting for Feature Selection
+2021-11-22 18:41:29,307 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 18:41:29,307 - DEBUG - Fitting the random forest
+2021-11-22 18:42:20,042 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 18:42:20,116 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 18:42:20,348 - DEBUG - Printing Metrices
+2021-11-22 18:42:22,347 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:42:45,047 - DEBUG - Program Started
+2021-11-22 18:43:52,397 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:43:52,420 - DEBUG - Data Size(4932, 32)
+2021-11-22 18:45:57,435 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:45:57,440 - DEBUG - Data Size(13, 29)
+2021-11-22 18:50:26,164 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:55:21,389 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:56:36,521 - DEBUG - Loading Data into Dataframe
+2021-11-22 18:56:36,531 - DEBUG - Data Size(13, 29)
+2021-11-22 18:57:06,831 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 18:57:16,770 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 18:57:16,771 - DEBUG - True
+2021-11-22 18:57:30,364 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 18:57:30,413 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 18:57:30,413 - INFO - NumExpr defaulting to 4 threads.
+2021-11-22 18:57:30,429 - DEBUG - Creating function to remove outliers
+2021-11-22 18:57:30,429 - DEBUG - Removing Outliers
+2021-11-22 18:57:39,394 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 18:57:39,394 - DEBUG - 46.15384615384615
+2021-11-22 18:57:54,291 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 18:57:54,294 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 18:57:54,296 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 18:58:03,963 - DEBUG - Renaming the column of dummy variables
+2021-11-22 18:58:13,119 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 18:58:27,363 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:04:35,463 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:04:35,466 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:04:35,474 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:04:35,488 - DEBUG - Fitting the random forest
+2021-11-22 19:05:25,536 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:05:25,615 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:05:25,833 - DEBUG - Printing Metrices
+2021-11-22 19:05:25,858 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:05:25,862 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:05:25,869 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:05:25,875 - DEBUG - Fitting the random forest
+2021-11-22 19:06:15,553 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:06:15,616 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:06:15,835 - DEBUG - Printing Metrices
+2021-11-22 19:06:15,850 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:06:15,850 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:06:15,866 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:06:15,866 - DEBUG - Fitting the random forest
+2021-11-22 19:07:06,449 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:07:06,512 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:07:06,746 - DEBUG - Printing Metrices
+2021-11-22 19:08:00,304 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:08:00,308 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:08:00,323 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:08:00,323 - DEBUG - Fitting the random forest
+2021-11-22 19:08:50,135 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:08:50,198 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:08:50,417 - DEBUG - Printing Metrices
+2021-11-22 19:08:50,433 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:08:50,448 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:08:50,448 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:08:50,464 - DEBUG - Fitting the random forest
+2021-11-22 19:09:40,106 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:09:40,178 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:09:40,404 - DEBUG - Printing Metrices
+2021-11-22 19:09:42,246 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:09:42,259 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:09:42,263 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:09:42,264 - DEBUG - Fitting the random forest
+2021-11-22 19:10:32,763 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:10:32,841 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:10:33,060 - DEBUG - Printing Metrices
+2021-11-22 19:10:33,085 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:10:33,098 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:10:33,102 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:10:33,109 - DEBUG - Fitting the random forest
+2021-11-22 19:11:23,390 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:11:23,468 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:11:23,687 - DEBUG - Printing Metrices
+2021-11-22 19:13:07,374 - DEBUG - Program Started
+2021-11-22 19:13:08,262 - DEBUG - Loading Data into Dataframe
+2021-11-22 19:13:08,270 - DEBUG - Data Size(21, 29)
+2021-11-22 19:13:10,692 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 19:13:11,859 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 19:13:11,860 - DEBUG - True
+2021-11-22 19:13:12,484 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 19:13:12,533 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 19:13:12,533 - DEBUG - Creating function to remove outliers
+2021-11-22 19:13:12,533 - DEBUG - Removing Outliers
+2021-11-22 19:13:13,503 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 19:13:13,503 - DEBUG - 14.285714285714285
+2021-11-22 19:13:14,812 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 19:13:14,814 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 19:13:14,817 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 19:13:15,466 - DEBUG - Renaming the column of dummy variables
+2021-11-22 19:13:16,422 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 19:13:17,457 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:14:44,303 - DEBUG - Program Started
+2021-11-22 19:14:45,377 - DEBUG - Loading Data into Dataframe
+2021-11-22 19:14:45,386 - DEBUG - Data Size(26, 29)
+2021-11-22 19:14:47,697 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 19:14:48,377 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 19:14:48,377 - DEBUG - True
+2021-11-22 19:14:49,030 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 19:14:49,081 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 19:14:49,088 - INFO - NumExpr defaulting to 4 threads.
+2021-11-22 19:14:49,091 - DEBUG - Creating function to remove outliers
+2021-11-22 19:14:49,091 - DEBUG - Removing Outliers
+2021-11-22 19:14:49,804 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 19:14:49,805 - DEBUG - 42.30769230769231
+2021-11-22 19:14:50,537 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 19:14:50,540 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 19:14:50,542 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 19:14:51,215 - DEBUG - Renaming the column of dummy variables
+2021-11-22 19:14:51,897 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 19:14:52,576 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:19:57,128 - DEBUG - Loading Data into Dataframe
+2021-11-22 19:19:57,249 - DEBUG - Data Size(19735, 29)
+2021-11-22 19:19:58,580 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 19:19:59,208 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 19:19:59,209 - DEBUG - True
+2021-11-22 19:19:59,661 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 19:19:59,725 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 19:19:59,726 - DEBUG - Creating function to remove outliers
+2021-11-22 19:19:59,727 - DEBUG - Removing Outliers
+2021-11-22 19:20:00,304 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 19:20:00,305 - DEBUG - 26.982518368381047
+2021-11-22 19:20:00,973 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 19:20:00,976 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 19:20:00,982 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 19:20:01,569 - DEBUG - Renaming the column of dummy variables
+2021-11-22 19:20:02,329 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 19:20:03,185 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:22:04,462 - DEBUG - Loading Data into Dataframe
+2021-11-22 19:22:04,531 - DEBUG - Data Size(764, 29)
+2021-11-22 19:22:06,050 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 19:22:06,746 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 19:22:06,746 - DEBUG - True
+2021-11-22 19:22:07,294 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 19:22:07,346 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 19:22:07,348 - DEBUG - Creating function to remove outliers
+2021-11-22 19:22:07,349 - DEBUG - Removing Outliers
+2021-11-22 19:22:07,946 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 19:22:07,947 - DEBUG - 38.7434554973822
+2021-11-22 19:22:08,530 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 19:22:08,533 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 19:22:08,534 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 19:22:09,221 - DEBUG - Renaming the column of dummy variables
+2021-11-22 19:22:09,949 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 19:22:10,649 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:22:47,909 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2021-11-22 19:22:47,923 - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+2021-11-22 19:23:04,226 - DEBUG - Program Started
+2021-11-22 19:23:04,243 - DEBUG - Loading Data into Dataframe
+2021-11-22 19:23:04,315 - DEBUG - Data Size(764, 29)
+2021-11-22 19:23:04,381 - DEBUG - Creating Column NSM, week_status, day_of_week
+2021-11-22 19:23:04,401 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2021-11-22 19:23:04,402 - DEBUG - True
+2021-11-22 19:23:04,416 - DEBUG - Detecting Outliers for Each variable
+2021-11-22 19:23:04,472 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2021-11-22 19:23:04,472 - INFO - NumExpr defaulting to 4 threads.
+2021-11-22 19:23:04,472 - DEBUG - Creating function to remove outliers
+2021-11-22 19:23:04,472 - DEBUG - Removing Outliers
+2021-11-22 19:23:04,537 - DEBUG - Percentage of Data Dropped: 
+2021-11-22 19:23:04,537 - DEBUG - 38.7434554973822
+2021-11-22 19:23:04,553 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2021-11-22 19:23:04,556 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2021-11-22 19:23:04,558 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2021-11-22 19:23:04,566 - DEBUG - Renaming the column of dummy variables
+2021-11-22 19:23:04,599 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2021-11-22 19:23:04,614 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:23:37,067 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:23:37,081 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:23:37,081 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:23:37,096 - DEBUG - Fitting the random forest
+2021-11-22 19:24:27,363 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:24:27,426 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:24:27,645 - DEBUG - Printing Metrices
+2021-11-22 19:24:27,660 - DEBUG - Loading libraries for feature selection and prediction
+2021-11-22 19:24:27,660 - DEBUG - Splitting for Feature Selection
+2021-11-22 19:24:27,676 - DEBUG - Feature selection as part of a pipeline
+2021-11-22 19:24:27,676 - DEBUG - Fitting the random forest
+2021-11-22 19:25:16,833 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2021-11-22 19:25:16,896 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2021-11-22 19:25:17,130 - DEBUG - Printing Metrices
